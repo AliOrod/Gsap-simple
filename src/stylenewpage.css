@@ -1,0 +1,30 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+img {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  top: -8px;
+  left: -8px;
+  
+}
+.zoomed {
+    transform: scale(2) ;
+    -webkit-transform: scale(2) ;
+    -moz-transform: scale(2) ;
+    -ms-transform: scale(2) ;
+    -o-transform: scale(2) ;
+}
+
+.unzoom {
+    transform: scale(1) ;
+    transition: transform 2s ease;
+    /*مدتزمانانتقالبرایبازگشتبهحالتاولیه*/:;
+    -webkit-transform: scale(1) ;
+    -moz-transform: scale(1) ;
+    -ms-transform: scale(1) ;
+    -o-transform: scale(1) ;
+}

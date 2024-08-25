@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.welcome {
+  width: 100%;
+  background: url("./img/wp9389330-black-universe-wallpapers.jpg");
+
+  filter: blur(0.01px);
+  
+  color: rgb(255, 255, 255);
+  -webkit-filter: blur(0.01px);
+}
+
+.welcomeText {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.responsive-font {
+  font-size: clamp(20px, 10vw, 160px);
+}
+
+.welcomeBar {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 2px;
+  z-index: 2;
+  background-color: black;
+  color: black;
+  border-radius: 4;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  -ms-border-radius: 4;
+  -o-border-radius: 4;
+  filter: blur(0.1px);
+  -webkit-filter: blur(0.1px);
+}
+.orange {
+  color: #ff8709;
+  background: none;
+}
+.ready {
+  padding: 0.5rem;
+  font-size: 8vw;
+  text-align: left;
+  height: 100vh;
+  font-family: "Bebas Neue", sans-serif;
+  z-index: 3;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #fff;
+}
+.readyText {
+  font-family: "Bebas Neue", sans-serif;
+  z-index: 3;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: #fff;
+}
+.letsgoText {
+  font-family: "Bebas Neue", sans-serif;
+  z-index: 4;
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  color: #ffffff00;
+}
+body {
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.moon {
+  width: 100%;
+  background: #000;
+  filter: blur(0.01px);
+  color: rgb(255, 255, 255);
+  -webkit-filter: blur(0.01px);
+}
+
+.earth {
+  top: 0%;
+  right: -10%;
+  width: 100%;
+  z-index: 10;
+}
+
+.moun {
+  width: 50px;
+  height: 50px;
+  z-index: 6;
+}

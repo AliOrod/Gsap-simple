@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylenewpage.css" />
+  </head>
+  <body>
+    <img
+      class="iamg zoomed"
+      id="image"
+      src="Pillars-of-Creation-NIRCam-social.jpg"
+      alt=""
+    />
+    <script>
+     window.addEventListener('load', function() {
+    var image = document.getElementById('image');
+    image.classList.add('zoomed'); // اعمال زوم اولیه
+    setTimeout(function() {
+        image.classList.remove('zoomed');
+        image.classList.add('unzoom'); // افزودن کلاس برای بازگشت به حالت اولیه
+    }, 100); // مدت زمان تأخیر قبل از شروع خروج از زوم
+});
+    </script>
+  </body>
+</html>
